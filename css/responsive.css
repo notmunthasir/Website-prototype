@@ -1,0 +1,96 @@
+@media screen and (max-width: 768px) {
+
+    /* Layout & Spacing */
+    .home,
+    .about > .text-center > .btn,
+    .about > .row,
+    .Project {
+        margin: 0px 20px;
+    }
+
+    .Project-grid,
+    .section-grid,
+    .footer-content {
+        max-width: calc(100% - 20px);
+        margin: 0 auto;
+        align-self: center;
+        display: grid;
+        grid-template-columns: repeat(1, 345px);
+        gap: 32px;
+    }
+
+    /* Navigation */
+    .nav-links {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .nav-b {
+        margin-right: 0 !important;
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+    }
+
+    .nav-b::after {
+        width: 100%;
+    }
+
+    /* Visibility */
+    .photo,
+    .team-photo {
+        display: none !important;
+    }
+
+    /* Project Sections */
+    .p-01,
+    .p-02 {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .p-02 > h2 {
+        font-size: 36px;
+    }
+
+    .p-02 > p {
+        font-size: 16px;
+    }
+
+    /* About Section */
+    .ab-box {
+        text-align: left !important;
+    }
+
+    /* Buttons */
+    .CTA-btn {
+        width: 100%;
+        margin: 10px 0;
+    }
+
+    .cta-res {
+        padding: 20px 10px !important;
+    }
+
+    .sub-btn {
+        margin: 0px !important;
+    }
+
+    /* Contact Section */
+    .contact-info {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+
+    .subject-msg,
+    .message {
+        padding: 20px 0px !important;
+        margin: 0px !important;
+    }
+
+    .name-email {
+        padding: 0px !important;
+    }
+
+}

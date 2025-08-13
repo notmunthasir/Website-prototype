@@ -1,0 +1,429 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="https://public-frontend-cos.metadl.com/mgx/img/favicon.png" type="image/png">
+    <title>WEB WORLD</title>
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.7/css/bootstrap.min.css" integrity="sha512-fw7f+TcMjTb7bpbLJZlP8g2Y4XcCyFZW8uy8HsRZsH/SwbMw0plKHFHr99DN3l04VsYNwvzicUX/6qurvIxbxw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="./css/style.css">
+    <!--- responsive css -->
+    <link rel="stylesheet" href="./css/responsive.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light shadow p-3 mb-5 bg-body-tertiary rounded py-3">
+            <div class="container">
+                <a class="navbar-brand fw-bold fs-5" href="#home">
+                    <i class="fas fa-globe"></i>Web<span class="text-primary">World</span>
+                </a>
+                <button class="navbar-toggler shadow-none p-1 bg-body-tertiary rounded" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0 fs-07">
+                        <li class="nav-item ps-4">
+                            <a class="nav-link nav-b" href="#home">Home</a>
+                        </li>
+                        <li class="nav-item ps-4">
+                            <a class="nav-link nav-b" href="#services">Services</a>
+                        </li>
+                        <li class="nav-item ps-4">
+                            <a class="nav-link nav-b" href="#Project">Projects</a>
+                        </li>
+                        <li class="nav-item ps-4">
+                            <a class="nav-link nav-b" href="#about">About</a>
+                        </li>
+                        <li class="nav-item ps-3">
+                            <a class="btn btn-primary border-3 py-1 px-4" href="#contact">Contact Us</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Home Page -->
+    <section class="home" id="home">
+        <div class="container d-flex p-01">
+            <div class="p-02">
+                <h2 class="fw-bold">Crafting Digital Experiences That Drive Results</h2>
+                <p>We design and develop beautiful, responsive websites that help your business grow online.</p>
+                <div>
+                    <a class="btn btn-primary border-3 py-2 px-4 me-4" href="#Project">View Our Work</a>
+                    <a class="btn btn-outline-primary border-3 py-2 px-4" href="#contact">Get A Quote</a>
+                </div>
+            </div>
+            <div class="photo">
+                <img class="pic" src="https://codingweek.org/wp-content/uploads/2023/09/chris-ried-ieic5Tq8YMk-unsplash-2048x1367.jpg" alt="coding" width="512" height="450">
+            </div>
+        </div>
+    </section>
+
+    <!-- Home Page Info Cards -->
+    <section class="ex-1">
+        <div class="container">
+            <div class="row text-center">
+                <!-- Card 1: Clean Code -->
+                <div class="col-md-3 mb-4">
+                    <div class="card h-100 card-hover">
+                        <div class="card-body">
+                            <i class="fas fa-code fa-2x mb-3 icon"></i>
+                            <h3 class="card-title">Clean Code</h3>
+                            <p class="card-text">Our websites are crafted with clean, semantic code for optimal performance and fast loading times.</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Card 2: Responsive Design -->
+                <div class="col-md-3 mb-4">
+                    <div class="card h-100 card-hover">
+                        <div class="card-body">
+                            <i class="fas fa-mobile-alt fa-2x mb-3 icon"></i>
+                            <h3 class="card-title">Responsive Design</h3>
+                            <p class="card-text">Enjoy seamless experiences on all devices with our fully responsive website designs.</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Card 3: SEO Optimized -->
+                <div class="col-md-3 mb-4">
+                    <div class="card h-100 card-hover">
+                        <div class="card-body">
+                            <i class="fas fa-search fa-2x mb-3 icon"></i>
+                            <h3 class="card-title">SEO Optimized</h3>
+                            <p class="card-text">Increase your online visibility with our effective search engine optimization techniques.</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Card 4: 24/7 Support -->
+                <div class="col-md-3 mb-4">
+                    <div class="card h-100 card-hover">
+                        <div class="card-body">
+                            <i class="fas fa-headset fa-2x mb-3 icon"></i>
+                            <h3 class="card-title">24/7 Support</h3>
+                            <p class="card-text">Our dedicated team is available around the clock to assist you whenever you need help.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services">
+        <div class="container">
+            <div class="section-header text-center">
+                <div class="m-title"><h2 class="fw-bold title-border">Our Services</h2></div>
+                <p>We provide comprehensive web solutions for businesses of all sizes</p>
+            </div>
+            <div class="section-grid">
+                <!-- Service: Website Design -->
+                <div class="card h-100 card-hover section-card">
+                    <div class="card-body text-center">
+                        <div class="fa-2x mb-3 icon">
+                            <i class="fas fa-laptop-code"></i>
+                        </div>
+                        <h3>Website Design</h3>
+                        <p>Custom website designs tailored to your brand and business objectives that captivate your audience.</p>
+                    </div>
+                </div>
+                <!-- Service: E-Commerce Solutions -->
+                <div class="card h-100 card-hover section-card">
+                    <div class="card-body text-center">
+                        <div class="fa-2x mb-3 icon">
+                            <i class="fas fa-shopping-cart"></i>
+                        </div>
+                        <h3>E-Commerce Solutions</h3>
+                        <p>Robust e-commerce platforms that provide a seamless shopping experience for your customers.</p>
+                    </div>
+                </div>
+                <!-- Service: Web Hosting -->
+                <div class="card h-100 card-hover section-card">
+                    <div class="card-body text-center">
+                        <div class="fa-2x mb-3 icon">
+                            <i class="fas fa-server"></i>
+                        </div>
+                        <h3>Web Hosting</h3>
+                        <p>Reliable and secure web hosting solutions to keep your website running smoothly 24/7.</p>
+                    </div>
+                </div>
+                <!-- Service: SEO & Marketing -->
+                <div class="card h-100 card-hover section-card">
+                    <div class="card-body text-center">
+                        <div class="fa-2x mb-3 icon">
+                            <i class="fas fa-chart-line"></i>
+                        </div>
+                        <h3>SEO & Marketing</h3>
+                        <p>Strategic optimization to improve your search rankings and drive more traffic to your website.</p>
+                    </div>
+                </div>
+                <!-- Service: Content Creation -->
+                <div class="card h-100 card-hover section-card">
+                    <div class="card-body text-center">
+                        <div class="fa-2x mb-3 icon">
+                            <i class="fas fa-pencil-alt"></i>
+                        </div>
+                        <h3>Content Creation</h3>
+                        <p>Engaging content that resonates with your audience and enhances your brand's online presence.</p>
+                    </div>
+                </div>
+                <!-- Service: Website Maintenance -->
+                <div class="card h-100 card-hover section-card">
+                    <div class="card-body text-center">
+                        <div class="fa-2x mb-3 icon">
+                            <i class="fas fa-cogs"></i>
+                        </div>
+                        <h3>Website Maintenance</h3>
+                        <p>Regular updates, backups, and technical support to keep your website secure and up-to-date.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Project Section --> 
+    <section id="Project" class="Project">
+        <div class="container">
+            <div class="section-header text-center">
+                <div class="m-title"><h2 class="fw-bold title-border">Our Project</h2></div>
+                <p>Take a look at some of our recent projects</p>
+            </div>
+            <div class="Project-grid">
+                <div class="Project-card">
+                    <img src="./Photo/Business Website.png" alt="Portfolio Item" height="300" width="345">
+                    <div class="project-overlay">
+                        <h3>Business Website</h3>
+                        <p>Web Design</p>
+                        <a href="#" class="project-link btn icon"><i class="fas fa-link" ></i></a>
+                    </div>
+                </div>
+                <div class="Project-card">
+                    <img src="./Photo/Online Store.png" alt="Portfolio Item" height="300" width="345">
+                    <div class="project-overlay">
+                        <h3>Online Store</h3>
+                        <p>E-Commerce</p>
+                        <a href="#" class="project-link btn icon"><i class="fas fa-link"></i></a>
+                    </div>
+                </div>
+                <div class="Project-card">
+                    <img src="./Photo/Corporate Website.png" alt="Portfolio Item" height="300" width="345">
+                    <div class="project-overlay">
+                        <h3>Corporate Website</h3>
+                        <p>Web Design</p>
+                        <a href="#" class="project-link btn icon"><i class="fas fa-link"></i></a>
+                    </div>
+                </div>
+                <div class="Project-card">
+                    <img src="./Photo/Brand Identity.png" alt="Portfolio Item" height="230" width="345">
+                    <div class="project-overlay">
+                        <h3>Brand Identity</h3>
+                        <p>Branding</p>
+                        <a href="#" class="project-link btn icon"><i class="fas fa-link"></i></a>
+                    </div>
+                </div>
+                <div class="Project-card">
+                    <img src="./Photo/Product Showcase.png" alt="Portfolio Item" height="300" width="345">
+                    <div class="project-overlay">
+                        <h3>Product Showcase</h3>
+                        <p>E-Commerce</p>
+                        <a href="#" class="project-link btn icon"><i class="fas fa-link"></i></a>
+                    </div>
+                </div>
+                <div class="Project-card">
+                    <img src="./Photo/Service Landing Page.png" alt="Portfolio Item" height="300" width="345">
+                    <div class="project-overlay">
+                        <h3>Service Landing Page</h3>
+                        <p>Web Design</p>
+                        <a href="#" class="project-link btn icon"><i class="fas fa-link"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="text-center mt-4">
+                <a href="#contact" class="btn btn-primary border-3 py-2 px-5 me-4
+                my-4">Start Your Project</a>
+            </div>
+        </div>
+    </section> 
+
+    <!-- About Section -->
+    <section class="about" id="about">
+        <div class="container section-header">
+            <div class="d-flex p-01">
+                <div class="team-photo">
+                    <img src="./Photo/Our_Team.jpg" alt="Our Team" height="340" width="512">
+                </div>
+                <div class="ab-box">
+                    <div class="ab-title">
+                        <h2 class="fw-bold fs-07 un-line">About Us</h2>
+                        <p >We're a team of passionate web designers and developers</p>
+                    </div>
+                    <span class="fw-bold">Web<span class="text-primary">World</span></span> was founded in 2007 with a simple mission: to help businesses succeed online through beautiful, functional web design and development. Since then, we've helped hundreds of clients transform their online presence.</p>
+                    <p>Our team consists of talented designers, developers, SEO specialists, and content creators who work together to deliver comprehensive web solutions that drive real results for our clients.</p>
+                </div>
+            </div>
+            <div class="row text-center mt-4">
+                <!-- About Stats -->
+                <div class="col-md-3">
+                    <h3 class="count">500+</h3>
+                    <p class="count-text">Projects Completed</p>
+                </div>
+                <div class="col-md-3">
+                    <h3 class="count">98%</h3>
+                    <p class="count-text">Client Satisfaction</p>
+                </div>
+                <div class="col-md-3">
+                    <h3 class="count">15+</h3>
+                    <p class="count-text">Team Members</p>
+                </div>
+                <div class="col-md-3">
+                    <h3 class="count">8+</h3>
+                    <p class="count-text">Years Experience</p>
+                </div>
+            </div>
+            <div class="text-center mt-2 mb-5">
+                <a href="#contact" class="btn btn-outline-primary border-3 py-2 px-5 me-4 my-4">Meet Our Team</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Call To Action Section -->
+        <section class="call-to-action" id="call-to-action">
+            <div class="container">
+                <div class="call-to-action text-center text-white p-5 rounded cta-res">
+                    <h2>Ready to Transform Your Online Presence?</h2>
+                    <p>Let's discuss your project and how we can help you achieve your business goals.</p>
+                    <a href="#contact" class="btn btn-outline-light bg-light text-primary border-3 py-2 px-5 me-4 my-2 CTA-btn">Get Started Today</a>
+                </div>
+            </div>
+        </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <div class="container">
+            <div class="section-header text-center">
+                <div class="m-title"><h2 class="fw-bold title-border">Contact Us</h2></div>
+                <p class="mb-4">Get in touch to discuss your project requirements</p>
+            </div>
+            <div class="container contact-info">
+                <!-- Contact Info -->
+                <div class="contact row info-box">
+                    <div class="d-flex info">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div class="box-info">
+                            <h3>Our Office</h3>
+                            <p>123 Web Design Street<br>Digital City, WD 12345</p>
+                        </div>
+                    </div>
+                    <div class="d-flex info">
+                        <i class="fas fa-envelope"></i>
+                        <div class="box-info">
+                            <h3>Email Us</h3>
+                            <p>munthasirrahman@gmail.com<br>notmunthasir2002@gmail.com</p>
+                        </div>
+                    </div>
+                    <div class="d-flex info">
+                        <i class="fas fa-phone-alt"></i>
+                        <div class="box-info">
+                            <h3>Call Us</h3>
+                            <p>+880 19287-85877<br>+880 19287-85877</p>
+                        </div>
+                    </div>
+                    <div class="d-flex info">
+                        <i class="fas fa-clock"></i>
+                        <div class="box-info">
+                            <h3>Business Hours</h3>
+                            <p>Sunday - Friday : 9AM - 8PM<br>Saturday : Closed</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Contact Form -->
+                <div class="contact-form contact-box">
+                    <form id="contactForm">
+                        <div class="name-email">
+                            <div class="name">
+                                <label for="name">Your Name</label><br>
+                                <input type="text" id="name" name="name" placeholder="Enter Your Name" width="500" required>
+                            </div>
+                            <div class="email">
+                                <label for="email">Your Email</label><br>
+                                <input type="email" id="email" name="email" placeholder="Enter Your Email" required>
+                            </div>
+                        </div>
+                        <div class="subject-msg">
+                            <label for="subject">Subject</label>
+                            <input type="text" id="subject" name="subject" placeholder="Write Your Subject " Write  required>
+                        </div>
+                        <div class="message">
+                            <label for="message">Your Message</label>
+                            <textarea id="message" name="message" rows="6" placeholder="Write Your Message" required></textarea>
+                        </div>
+                        <button class="btn btn-primary border-3 py-2 px-5 ms-4 sub-btn" type="submit">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container ">
+            <div class="footer-content">
+                <div class="footer-column">
+                    <div class="footer-logo">
+                        <h2>Web<span>Craft</span></h2>
+                    </div>
+                    <p>Creating beautiful, functional websites that help businesses grow online since 2015.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#"><i class="fab fa-pinterest-p"></i></a>
+                    </div>
+                </div>
+                <div class="footer-column">
+                    <h3>Quick Links</h3>
+                    <ul class="footer-links">
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#portfolio">Portfolio</a></li>
+                        <li><a href="#about">About Us</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>Our Services</h3>
+                    <ul class="footer-links">
+                        <li><a href="#">Website Design</a></li>
+                        <li><a href="#">E-Commerce Development</a></li>
+                        <li><a href="#">SEO Optimization</a></li>
+                        <li><a href="#">Content Creation</a></li>
+                        <li><a href="#">Web Hosting</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>Newsletter</h3>
+                    <p>Subscribe to our newsletter for the latest updates and offers.</p>
+                    <form class="newsletter-form">
+                        <input type="email" placeholder="Enter your email" required>
+                        <button type="submit"><i class="fas fa-paper-plane"></i></button>
+                    </form>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2023 WebCraft. All Rights Reserved.</p>
+                <div class="footer-legal">
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Terms of Service</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- Bootstrap JS Bundle -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.7/js/bootstrap.bundle.min.js" integrity="sha512-Tc0i+vRogmX4NN7tuLbQfBxa8JkfUSAxSFVzmU31nVdHyiHElPPy2cWfFacmCJKw0VqovrzKhdd2TSTMdAxp2g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+</body>
+</html>
