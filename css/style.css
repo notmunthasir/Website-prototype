@@ -66,19 +66,19 @@ h3 {
     border-radius: 10px;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
     cursor: pointer;
+    transition: var(--transition);
 }
 
 .card-hover:hover {
     transform: translateY(-10px);
-    transition: transform 0.3s ease;
     box-shadow: 0 15px 30px rgb(0 0 0 / 33%);
 }
 
-.card-hover:hover .card-body > .icon {
+.card-body:hover .icon {
     color: white;
     border-radius: 50%;
     background-color: #4361ee;
-    transition: transform all 0.3s ease-in-out;
+    transition: var(--transition);
 }
 
 /* ========== NAVIGATION STYLES ========== */
